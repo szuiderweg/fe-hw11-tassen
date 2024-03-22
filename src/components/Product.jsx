@@ -1,4 +1,3 @@
-import React from 'react';
 
 function Product({label, image, imageAlt, nameOfBag, price}) {
     return (
