@@ -1,7 +1,4 @@
-import React from 'react';
-
-
-
+//dit is een wijziging
 function Button({ text, disabled }) {
     return (
         <button
