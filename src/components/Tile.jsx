@@ -1,12 +1,8 @@
-import React from 'react';
 
-function Tile({ image, imgDescription, title, children }) {
-    console.log(image, imgDescription, title, children)
+function Tile(props) {
     return (
         <section>
-            {image && <img src={image} alt={imgDescription} />}
-            <h2>{title}</h2>
-            {children}
+            {props.children}
         </section>
     );
 }

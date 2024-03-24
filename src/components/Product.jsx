@@ -1,13 +1,11 @@
-import React from 'react';
-
-function Product({label, image, imageAlt, nameOfBag, price}) {
+function Product({tag,image,name,price}) {
     return (
-            <article>
-                <span>{label}</span>
-                <img src={image} alt={imageAlt}/>
-                <p>{nameOfBag}</p>
-                <h4>€{price},-</h4>
-            </article>
+        <article>
+            <span>{tag}</span>
+            <img src={image} alt={name} />
+            <p>{name}</p>
+            <h4>€{price},-</h4>
+        </article>
     );
 }
 
